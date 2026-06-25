@@ -1,4 +1,4 @@
-type User = {
+type UserN = {
     readonly userDateOfBirth: Date; 
     userName: string;
     userAge: number;
@@ -8,7 +8,7 @@ type User = {
     userRole: string;
 };
 
-const user: User = {
+const usern: UserN = {
     userName: 'Carlos',
     userAge: 31,
     userEmail: 'carlos@gmail.com',
@@ -18,7 +18,7 @@ const user: User = {
     userRole: 'admin',
 };
 
-function exibirDadosDoUsuario(user: User): void {
+function exibirDadosDoUsuario(user: UserN): void {
     console.log(
         `${user.userName} tem ${user.userAge} anos. ` +
         `Email: ${user.userEmail} | ` +
@@ -27,4 +27,4 @@ function exibirDadosDoUsuario(user: User): void {
     );
 }
 
-exibirDadosDoUsuario(user);
+exibirDadosDoUsuario(usern);
