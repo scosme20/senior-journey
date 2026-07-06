@@ -44,3 +44,5 @@ function processUser(
 }
 
 processUser('Carlos', 30, 'carlos@example.com', 'active');
+
+//////////////
